@@ -1,5 +1,5 @@
 # BoomBikes Case Study
-> Outline a brief description of your project.
+> A study to analyze and predict bike-sharing demand using linear regression models.
 
 
 ## How to run project
@@ -26,42 +26,40 @@ jupyter notebook \
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- **Project Overview**: The BoomBikes Case Study focuses on predicting the demand for shared bikes based on various features such as weather, time, and season. We use multiple linear regression techniques to identify the most significant variables affecting bike demand.
+- **Business Problem**: Due to the ongoing pandemic, BoomBikes suffered dips in revenue. The goal of this project is to understand the demand for shared bikes and build a predictive model that can help strategize and accelerate revenue growth.
+- **Dataset**: The dataset used for this project contains information about daily bike rental counts, including various meteorological and seasonal factors. It includes data on temperature, humidity, weather situation, working day, season, and more.
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- **Season and Weather Impact**: Bike rental demand is significantly influenced by the season and weather situation. Demand is higher in pleasant weather and during favorable seasons (`season_3` and `season_4`).
+- **Temperature Correlation**: Temperature (`temp`) has a strong positive correlation with bike rental demand, indicating higher rentals in warmer weather.
+- **Impact of Year**: Demand increased significantly in the second year (`yr`), indicating that bike-sharing systems gained more popularity over time.
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- **Python** - Version 3.x
+- **Jupyter Notebook** - For running and documenting the analysis
+- **Pandas** - Data manipulation and analysis
+- **NumPy** - Numerical computations
+- **Matplotlib & Seaborn** - Data visualization
+- **Statsmodels & Scikit-Learn** - Building linear regression models
+
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+ 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@jafarijason](https://github.com/jafarijason) - feel free to reach out for collaboration or further inquiries.  
+Connect with me on [LinkedIn](https://www.linkedin.com/in/jasonjafari/).
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## Additional Resources
+- [Jupyter Notebook](https://github.com/jafarijason/ds_002_boom_bikes_case_study_regression/blob/master/Group_Facilitator_Jason_Jafari.ipynb)
+- [Answering Subjective Questions](https://github.com/jafarijason/ds_002_boom_bikes_case_study_regression/blob/master/Regression%2BSubjective%2BQuestions.pdf)
